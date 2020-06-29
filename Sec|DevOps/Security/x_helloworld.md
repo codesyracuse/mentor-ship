@@ -1,8 +1,6 @@
-
 ---
 name: 
 about: https://github.com/scspcommunity/Cyber-Sec-Resources
-
 title: ''
 labels: 'cyber, offsensive security, defensive security'
 ---
