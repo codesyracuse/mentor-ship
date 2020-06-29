@@ -14,12 +14,9 @@ The specific goal is to learn the basics of fuzzing
 
 ## Attainable
 See:
-    - https://github.com/CSC-DevOps/Fuzzing
-    - 
+    - https://oscp.securable.nl/buffer-overflow
 
 ## Relevant
-    - Quality Assurance
-    - Reverse Engineering
 
 ## Time-bound
     - DueDate: xx/xx/2020
