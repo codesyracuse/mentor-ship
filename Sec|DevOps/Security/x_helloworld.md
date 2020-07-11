@@ -7,8 +7,8 @@ labels: 'cyber, offsensive security, defensive security'
 
 # SMART
 ## Specific
-The specific goal is to learn the basics of 
-
+The specific goal is to learn the basics of Cyber Security by reading
+through material.
 
 ## Measurable
     - use git repo: 
@@ -18,7 +18,6 @@ The specific goal is to learn the basics of
 ## Attainable
 See:
     - https://github.com/scspcommunity/Cyber-Sec-Resources
-    - 
 
 ## Relevant
     - 

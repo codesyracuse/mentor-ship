@@ -19,7 +19,6 @@ The specific goal is to advance our learning.
 ## Attainable
 See:
     - https://atomicredteam.io/contributing
-    - 
 
 ## Relevant
     - 

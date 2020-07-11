@@ -1,10 +1,8 @@
 ---
 name: Complete & Save XeniaLabs Periodic table of DevOps elements
-about: Starter Goal
-title: ''
-labels: ''
-assignees: ''
-
+about: This helps an individual perform a self-assessemnt using identification of tools & applications
+type: Assessment
+labels: 'DevOps'
 ---
 
 # SMART

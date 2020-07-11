@@ -1,7 +1,7 @@
 ---
 name: 
 about: 
-title: 'Learning the basics of buffer overflows'
+title: 'Learning the basics of fuzzing'
 labels: 'cyber'
 ---
 
