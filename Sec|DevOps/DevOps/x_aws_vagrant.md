@@ -9,9 +9,14 @@ labels: 'AppSecDev, offensive security'
 ## Specific
     - Vagrant is an awesome tool, the cyberange vagrantfile took years to
     master.  the goal is to learn the basics and spin up an asset.
+    
+
 
 ## Measurable
     - test vagrant on commandcenter
+    - config the yaml file
+    - start your own asset
+    - provide a writeup
     - fill out bugs in github
 
 ## Attainable
