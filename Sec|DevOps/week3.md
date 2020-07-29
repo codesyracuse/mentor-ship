@@ -12,23 +12,37 @@ Top 3 goals for the week:
 
 
 1.	Career Mgmt
- -  Refresh / Fine-tune Resume
- -	Outline Website (Customer/Internet-facing & portfolio of work)
- -  Blog & build online presence
- - (future-assignment) Identify & Research the benefits of Vendor Certs (e.g. CCNA, CeH, OSCP, CISSP) to look-forward in your security career.
-        SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/networking/x_networking_101.md
- - Continue Security+
+ - (in-progress) Pursue and schedule Security+
     1.	Page 250 by Friday at noon.
     2.	Complete 3 practice tests from book
     3.	Purchase Voucher
+ -  Refresh / Fine-tune Resume & Apply for Jobs
+    1. (in-progress) Continue Job & Keyword researching
+ -	Outline Website (Customer/Internet-facing & portfolio of work)
+ -  Blog & build online presence
+ - (future-assignment) Identify & Research the benefits of Vendor Certs (e.g. CCNA, CeH, OSCP, CISSP) to look-forward in your security career.
+        ** SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/networking/x_networking_101.md
 
 2. Technical Work
     - Learn Testing
-        1.	Spin up AWS CyberRange
-        2.	Examine metasploitable machine with nmap
-        3.	Explore available vulnerabilities
-        4.  Create one inspec test for the metasploitable asset after performing initial NMAP
-    - Research Docker Compose
+        1.	Spin up AWS CyberRange * Examine metasploitable machine with nmap
+        2.	Explore available vulnerabilities
+            - Check out autorecon (may need to git clone & setup) and reconnoitre
+        ** SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/offensive/x_enumeration.md
+        ** SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/awscyberrange/2_setup_enumerate_explot_recon.md
+        ** SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/QualityAssurance/x_qa_101.md
+        3.  Create one inspec test for the metasploitable asset after performing initial NMAP
+        ** SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/DevOps/x_inspec.md
+    - Research Docker & Docker-Compose
+        1. boot up kali docker containers
+        ** SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/DevOps/x_docker_dockercompose_101.md
+    - (assigned) 
+        SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/offensive/x_enumeration.md
+        SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/awscyberrange/2_setup_enumerate_explot_recon.md
+    - (assigned) clone the mentor-ship repo and explore the Sec|DevOps folder
+
+    - (assigned) Pick a box/vuln on the range and learn exploit, try to create a report as I work.	
+        SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/offensive/x_enumeration.md
 
 3. Project Work
     - GitHub
@@ -62,27 +76,13 @@ List of Completed Objectives/Milestones:
     - (completed) Review XebiaLabs DevOps Periodic Table - identify what you know, recognize, and read about a few more things.
         SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/DevOps/1_self-assess_xenialabs_devops_chart.md
     - (completed) identify a few categories and tools that you want to learn & explore
-    - (in-progress) Pursue and schedule Security+
-    - (in-progress) Continue Job & Keyword researching
-   
 
-		
 2. Technical Work
     - (completed) get up and running w/ docker.
     - (completed) use the commandcenter container
     - (completed) Slack -> General channel -> Step 1 - Test the Cyber Range LifeCycle
     - (completed) Periodic Table – Research Terraform, Vagrant, Ansible, and Puppet
     - (completed) Kali – RDP in. Check out docker containers on desktop.
-    - (assigned) boot up kali docker containers
-    - (assigned) Kali – CLI Check out autorecon (may need to git) and reconnoitre
-        SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/offensive/x_enumeration.md
-        SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/awscyberrange/2_setup_enumerate_explot_recon.md
-    - (assigned) clone the mentor-ship repo and explore the Sec|DevOps folder
-    - (assigned) Check out Nessus essentials with enumeration in RDP and probe for vulns on target network 
-        SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/offensive/x_enumeration.md
-        SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/awscyberrange/2_setup_enumerate_explot_recon.md
-    - (assigned) Pick a box/vuln on the range and learn exploit, try to create a report as I work.	
-        SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/offensive/x_enumeration.md
     - (completed) Terraform – Toy with makefile to launch specific instances or customize launches 
         SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/DevOps/x_aws_terraform.md
 
@@ -91,7 +91,7 @@ List of Completed Objectives/Milestones:
     - combine all 3 things and identify 3 GitHub project ideas
 
 Cappetta Todo's: 
-    - update calenderly and send follow email for friday invite.
+    - Update QA-101 / Test Automation 101 / x_docker_dockercompose_101.md
+    - update calenderly and send follow email for weekly sync-up
     - remain available on slack
-    - cyber range project training
 
