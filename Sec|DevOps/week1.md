@@ -8,7 +8,7 @@ labels: ''
 # SMART
 ## Specific
 
-Top 3 goals to focus on: 
+Top 3 goals for the week: 
 
 	 - DevOps Periodic Table 
 		- identify what you know

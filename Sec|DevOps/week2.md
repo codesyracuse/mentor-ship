@@ -8,7 +8,7 @@ labels: ''
 # SMART
 ## Specific
 
-Top 3 goals to focus on: 
+Top 3 goals for the week: 
 
 	 - Career Mgmt
 	        - (completed) perform indeed research for keywords and trends 
@@ -49,7 +49,7 @@ Top 3 goals to focus on:
 
 Cappetta Todo's: 
     - update calenderly and send follow email for friday invite.
-    - be available on slack
+    - remain available on slack
     - build more smart goals / action-items
 
 ## Measurable
