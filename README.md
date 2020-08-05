@@ -6,5 +6,5 @@ Be a captain or join the crew.
 [Front-End Roadmap](https://roadmap.sh/frontend)
 
 ## Beginner Web Development
-[No-Jargon Intro to Git/Github](https://dev.to/lauracharvey/breaking-into-web-dev-the-no-jargon-guide-article-1-git-git-hub-igg)
+[No-Jargon Intro to Git/Github](https://dev.to/lauracharvey/breaking-into-web-dev-the-no-jargon-guide-article-1-git-git-hub-igg)  
 [No-Jargon Intro to Web Deployment](https://dev.to/lauracharvey/breaking-into-web-dev-the-no-jargon-guide-article-2-deploying-your-first-website-13nn)
