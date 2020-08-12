@@ -1,7 +1,7 @@
 ---
-name: Week 4 Goals
+name: Week 5 Goals, Carry over from Week 4
 about: 3 things, each w/ 3 things.
-title: 'Week 4 - Steady Pace'
+title: 'Week 5 - Autonomous Momentum'
 labels: ''
 ---
 
@@ -14,7 +14,7 @@ Top 3 goals for the week:
  - (in-progress) Pursue and schedule Security+
     1.	Continue reading.
     2.	Prepare for practice tests in book
-    3.	Purchase Voucher & take Exam!
+    3.	Purchase Voucher & take Exam time!
  -  Refresh / Fine-tune Resume & Apply for Jobs
     1. (in-progress) Expand Keyword research (devops, test engineer, support engineer, network engineer) & location (remote)
  - (in-progress) Enhance Outline Website (Customer/Internet-facing & portfolio of work)
@@ -23,31 +23,14 @@ Top 3 goals for the week:
         ** SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/networking/x_networking_101.md
 
 2. Technical Work
-    - Learn Testing
-        1.	Spin up AWS CyberRange * Examine metasploitable machine with nmap
-        2.	Explore available vulnerabilities
-            - Check out autorecon (may need to git clone & setup) and reconnoitre
-        ** SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/offensive/x_enumeration.md
-        ** SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/awscyberrange/2_setup_enumerate_explot_recon.md
-        ** SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/QualityAssurance/x_qa_101.md
-        3.  Create one inspec test for the metasploitable asset after performing initial NMAP
-        ** SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/DevOps/x_inspec.md
-        SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/offensive/x_enumeration.md
-        SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/awscyberrange/2_setup_enumerate_explot_recon.md
-    - (in-progress) Look Ahead - clone the mentor-ship repo and explore the Sec|DevOps folder
-
-    - (assigned) Pick a box/vuln on the range and learn exploit, try to create a report as I work.	
-        SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/offensive/x_enumeration.md
-
+    - Self-Directed Learning
+       
+    
 3. Project Work
-    - GitHub
-        1. continuously use terraform, docker, and docker-compose
-        2. Create a visual of your  GitHub
-        5. Clean up repos, evaluate if anything can be made public.
-        6. Clone JS To-Do app and make a version available without private keys.
+    - Self-Directed Learning
 
 ## Measurable
-    - see above 
+    - see above
 
 ## Attainable
     - all research related
@@ -58,7 +41,7 @@ Top 3 goals for the week:
     - emerging technology trends
 
 ## Time-bound
-    - DueDate: 08/03/2020
+    - DueDate: 08/15/2020
 
 
 List of Completed Objectives/Milestones: 
@@ -87,7 +70,8 @@ List of Completed Objectives/Milestones:
     - combine all 3 things and identify 3 GitHub project ideas
 
 Cappetta Todo's: 
-    - Update QA-101 / Test Automation 101 / x_docker_dockercompose_101.md
+    - Update QA-101 / Test Automation 101 /
     - update calenderly and send follow email for weekly sync-up
     - remain available on slack
+    - Send invite out for Sat Morning
 
