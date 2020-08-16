@@ -1,7 +1,7 @@
 ---
-name: Week 5 Goals, Carry over from Week 4
+name: Week 6 Goals
 about: 3 things, each w/ 3 things.
-title: 'Week 5 - Autonomous Momentum'
+title: 'Week 6 - Finishing Strong'
 labels: ''
 ---
 
@@ -14,21 +14,19 @@ Top 3 goals for the week:
  - (in-progress) Pursue and schedule Security+
     1.	Continue reading.
     2.	Prepare for practice tests in book
-    3.	Purchase Voucher & take Exam time!
+    3.	Start prepping for Exam!
  -  Refresh / Fine-tune Resume & Apply for Jobs
-    1. (in-progress) Expand Keyword research (devops, test engineer, support engineer, network engineer) & location (remote)
- - (in-progress) Enhance Outline Website (Customer/Internet-facing & portfolio of work)
- - (in-progress) Blog & build online presence (medium)
- - (future-assignment) Identify & Research the benefits of Vendor Certs (e.g. CCNA, CeH, OSCP, CISSP) to look-forward in your security career.
-        ** SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/networking/x_networking_101.md
+    1. Gig-Economy (Fiver / Upwork)
+
 
 2. Technical Work
-    - Self-Directed Learning
+    - (in-progress) VOIP / SIP protocol & networking research
        
     
 3. Project Work
-    - Self-Directed Learning
-
+    - PiHole
+    - VPN 
+    
 ## Measurable
     - see above
 
@@ -52,6 +50,12 @@ List of Completed Objectives/Milestones:
     - (completed) Review XebiaLabs DevOps Periodic Table - identify what you know, recognize, and read about a few more things.
         SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/DevOps/1_self-assess_xenialabs_devops_chart.md
     - (completed) identify a few categories and tools that you want to learn & explore
+    - (completed) Enhance Outline Website (Customer/Internet-facing & portfolio of work)
+    - (completed) Blog & build online presence (medium)
+    - (completed) Identify & Research the benefits of Vendor Certs (e.g. CCNA, CeH, OSCP, CISSP) to look-forward in your security career.
+        ** SMART: https://github.com/codesyracuse/mentor-ship/blob/master/Sec%7CDevOps/Security/networking/x_networking_101.md
+    - (completed) Expand Keyword research (devops, test engineer, support engineer, network engineer) & location (remote)
+
 
 2. Technical Work
     - (completed) get up and running w/ docker.
