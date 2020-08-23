@@ -2,7 +2,7 @@
 > This section is for managers of the Mentor Ship program
 
 ## Emails
-[welcome email to mentor](welcome-mentor.md)
+[welcome email to mentor](welcome-mentor.md)  
 [welcome email to trainee](welcome-trainee.md)
 
 ## Presentations
