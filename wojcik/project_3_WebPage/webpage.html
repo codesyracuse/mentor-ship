@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <header>
+        <title>Project #3: Webpage</title>
+    </header>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="webpage.css">
+    </head> 
+
+    <body>
+        <main>
+            <fieldset>
+                <legend>Section 1 content</legend>
+
+    <!--A key aspect of this, and I believe the other sections, is having the background image. Not sure if it matters
+    where its <img> tag goes, but this seems like a styling issue.-->
+                <div id="section 1">
+                    <div id="background image">
+                        <img src="" alt="placeholder for background image">
+                    </div><br>
+
+                    <div id="company logo">
+                        <img src="" alt="placeholder for company logo">
+                    </div><br>
+
+    <!--W3 website has example CSS for when we get to stlying. They had <a> set up for the icons, which made sense
+    considering that clicking the icon takes you to the social media page.-->
+                    <div id="social media icons">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Pinterest</a>
+                    </div><br>
+
+    <!--My first thought was buttons, but <a> seems equally plausible considering that clicking the option should 
+    theoretically take you to another page on the site. Not sure how it works with JS, but maybe it can be 
+    accomplished both ways?-->
+                    <div id="navigation bar">
+                        <a href="#">Home</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Branches & ATMs</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Placeholder for "Search" icon</a>
+                    </div><br>
+
+    <!--The example image kind of makes this section look like a set of drop-down options except for the last option
+    for logging in. And by "making it look like" I mean it looks like what I would usually except a set of drop-downs
+    to look like whenever I encounter them on webpages. If they are intended to be drop-downs, my main guess is that
+    we will have to use <select> and use CSS to make the option appear like it does in the image (ie. the title of the
+    option), and then have a "hover" property when a user places their cursor over the option for whatever the "options"
+    are for that...option. But again, for the sake of placeholders, it seems like <a> is a good option for now.-->
+                    <div id="options tab">
+                        <a href="#">Checkings & Savings</a>
+                        <a href="#">Personal</a>
+                        <a href="#">Business</a>
+                        <a href="#">Mortage</a>
+                        <a href="#">Loans</a>
+                        <a href="#">Services</a>
+                        <a href="#">Membership</a>
+                        <a href="#">Login</a>
+                    </div>
+
+    <!--For the sake of the HTML being a placeholder, I think <h#> elements can accomplish the goal of showing
+    the difference in text size for this section until we start incorporating CSS.-->
+                    <div id="info text">
+                        <h1>
+                            Business Loans<br>
+                            From $25,500
+                        </h1>
+
+                        <h3>
+                            We have a wide range of loans to help meet your<br>
+                            business financial needs.
+                        </h3>
+                    </div>
+
+    <!--Again, more clickable content that will take the user to another part of the webpage. <a> again seems like
+    the most logical guess for the HTML. Still assuming that JS will play a big role in handling that functionality
+    as was previously discussed.-->
+                    <div id="more options">
+                        <a href="#">APPLY FOR LOAN</a>
+                        <a href="#">SEE SERVICES</a>
+                    </div>
+                </div>
+            </fieldset>
+        </main>
+    </body>
+</html>
