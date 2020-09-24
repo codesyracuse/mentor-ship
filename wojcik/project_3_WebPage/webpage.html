@@ -1,231 +1,142 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <link rel="stylesheet" type="text/css" href="webpage.css">
-        <title>Project #3: Webpage</title>
-    </head> 
+  <head>
+    <link rel="stylesheet" type="text/css" href="webpage.css">
+    <title>Project #3: Webpage</title>
+  </head> 
 
-<!--GENERAL NOTE IN RELATION TO CLICKABLE CONTENT: Read on stackoverflow that nesting the type of clickable
-element I want in a form element could fix the issue of linking that component to other parts of the webpage,
-social media, ect.-->
-    <body> 
-        <main>
-            <fieldset>
-                <legend>Section 1 content</legend>
+  <body>
+    <header>
+      <div id="section 1">
+        <img src="" alt="placeholder for background image">
+        <img src="" alt="placeholder for company logo">
 
-<!--A key aspect of this, and I believe the other sections, is having the background image. Not sure if it matters
-where its <img> tag goes, but this seems like a styling issue.-->
-                <div id="section 1">
-                    <div id="background image">
-                        <img src="" alt="placeholder for background image">
-                    </div><br>
+<!--Unsure if the first two <nav>'s will stay <nav>'s. The third one definitely will, as we had discussed
+  previously. The example HTML for the social media icons I had previously found had them as straight up <a>'s. 
+  Could potentially extend that set up to the second <nav>?-->
+        <nav>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+        </nav>
+        
+        <nav>
+          <a href="#">Home</a> .
+          <a href="#">About Us</a> .
+          <a href="#">Branches & ATMs</a> .
+          <a href="#">Contact Us</a> .
+          <a href="#">Placeholder for "Search" icon</a>
+        </nav>
+        
+        <nav>
+          <a href="#">Checkings & Savings</a>
+          <a href="#">Personal</a>
+          <a href="#">Business</a>
+          <a href="#">Mortage</a>
+          <a href="#">Loans</a>
+          <a href="#">Services</a>
+          <a href="#">Membership</a>
+          <a href="#">Login</a>
+        </nav>
+        
+        <h2>Business Loans From $25,500</h2>
 
-                    <div id="company logo">
-                        <img src="" alt="placeholder for company logo">
-                    </div><br>
+        <p>We have a wide range of loans to help meet your business financial needs.</p>
 
-<!--W3 website has example CSS for when we get to stlying. They had <a> set up for the icons, which made sense
-considering that clicking the icon takes you to the social media page.-->
-                    <div id="social media icons">
-                        <a href="#">Facebook</a>
-                        <a href="#">Twitter</a>
-                        <a href="#">Instagram</a>
-                        <a href="#">Pinterest</a>
-                    </div><br>
+        <a href="#">APPLY FOR LOAN</a>
+        <a href="#">SEE SERVICES</a>
+      </div>
+    </header>
 
-<!--My first thought was buttons, but <a> seems equally plausible considering that clicking the option should 
-theoretically take you to another page on the site. Not sure how it works with JS, but maybe it can be 
-accomplished both ways?-->
-                    <div id="navigation bar">
-                        <a href="#">Home</a>
-                        <a href="#">About Us</a>
-                        <a href="#">Branches & ATMs</a>
-                        <a href="#">Contact Us</a>
-                        <a href="#">Placeholder for "Search" icon</a>
-                    </div><br>
+    <main>
+      <div id="section 2">
+        <h2>We're here to help when you need financial support.</h2>
 
-<!--The example image kind of makes this section look like a set of drop-down options except for the last option
-for logging in. And by "making it look like" I mean it looks like what I would usually except a set of drop-downs
-to look like whenever I encounter them on webpages. If they are intended to be drop-downs, my main guess is that
-we will have to use <select> and use CSS to make the option appear like it does in the image (ie. the title of the
-option), and then have a "hover" property when a user places their cursor over the option for whatever the "options"
-are for that...option. But again, for the sake of placeholders, it seems like <a> is a good option for now.-->
-                    <div id="options tab">
-                        <a href="#">Checkings & Savings</a>
-                        <a href="#">Personal</a>
-                        <a href="#">Business</a>
-                        <a href="#">Mortage</a>
-                        <a href="#">Loans</a>
-                        <a href="#">Services</a>
-                        <a href="#">Membership</a>
-                        <a href="#">Login</a>
-                    </div>
+        <p>We're dedicated to providing you all the support you need to reach your financial goals.</p>
 
-<!--For the sake of the HTML being a placeholder, I think <h#> elements can accomplish the goal of showing
-the difference in text size for this section until we start incorporating CSS.-->
-                    <div id="info text">
-                        <h1>
-                            Business Loans<br>
-                            From $25,500
-                        </h1>
+<!--Keeping these <div>'s for now, but am curious to see if there might be a more optimal, "non-div" way of
+  packaging them.-->
+        <div id="home equity loans" style="background-color:cadetblue; margin-right: 1150px;">
+          <img src="" alt="placeholder">
 
-                        <h3>
-                            We have a wide range of loans to help meet your<br>
-                            business financial needs.
-                        </h3>
-                    </div>
+          <p>
+            Home Equity Loan<br>
+            60-month term as low<br>
+            as 3.1%
+          </p>
 
-<!--Again, more clickable content that will take the user to another part of the webpage. <a> again seems like
-the most logical guess for the HTML. Still assuming that JS will play a big role in handling that functionality
-as was previously discussed.-->
-                    <div id="more options">
-                        <a href="#">APPLY FOR LOAN</a>
-                        <a href="#">SEE SERVICES</a>
-                    </div>
-                </div>
-            </fieldset>
+          <button type="button">
+            Learn More
+          </button>
+        </div><br>
 
-            <fieldset>
-                <legend>Section 2 content</legend>
+        <div id="mobile banking" style="background-color:cadetblue; margin-right: 1150px;">
+          <img src="" alt="placeholder">
 
-                <div id="section 2">
-                    <div id="advertising text">
-                        <h1>
-                            We're here to help when you need<br>
-                            financial support.
-                        </h1>
+          <p>
+            Mobile Banking<br>
+            Manage your money on<br>
+            the go
+          </p>
 
-                        <h3>
-                            We're dedicated to providing you all the support you need to reach your financial goals.
-                        </h3>
-                    </div>
-                
-<!--All of the nested divs will be their own "rectangle" but of the same formart as every other one.
-In other words, they will have the same dimensions and be displayed horizontally when CSS is used. The general
-note from above is related to these sections in particular (ie. nesting the buttons in a form element later on.
-inline stylings intended to give a visual representation of each nested div having their own "rectangle".-->
-                    <div id="advertising boxes">
-                        <div id="home equity loans" style="background-color:cadetblue; margin-right: 1150px;">
-                            <img src="" alt="placeholder tag">
+          <button type="button">
+            Learn More
+          </button>
+        </div><br>
 
-                            <p>
-                                Home Equity Loan<br>
-                                60-month term as low<br>
-                                as 3.1%
-                            </p>
+        <div id="auto loans" style="background-color:cadetblue; margin-right: 1150px;">
+          <img src="" alt="placeholder">
 
-                            <button type="button">
-                                Learn More
-                            </button>
-                        </div><br>
+          <p>
+            Auto Loans<br>
+            New Auto Loans As Low<br>
+            As 2.70%
+          </p>
 
-                        <div id="mobile banking" style="background-color:cadetblue; margin-right: 1150px;">
-                            <img src="" alt="placeholder tag">
+          <button type="button">
+            Learn More
+          </button>
+        </div><br>
 
-                            <p>
-                                Mobile Banking<br>
-                                Manage your money on<br>
-                                the go
-                            </p>
+        <div id="visa credit cards" style="background-color:cadetblue; margin-right: 1150px;">
+          <img src="" alt="placeholder">
 
-                            <button type="button">
-                                Learn More
-                            </button>
-                        </div><br>
+          <p>
+            VISA Credit Cards<br>
+            Interest Rate As<br>
+            Low As 6.8%
+          </p>
 
-                        <div id="auto loans" style="background-color:cadetblue; margin-right: 1150px;">
-                            <img src="" alt="placeholder tag">
+          <button type="button">
+            Learn More
+          </button>
+        </div>
+      </div><br>
 
-                            <p>
-                                Auto Loans<br>
-                                New Auto Loans As Low<br>
-                                As 2.70%
-                            </p>
+      <div id="section 3">
+        <img src="" alt="placeholder">
 
-                            <button type="button">
-                                Learn More
-                            </button>
-                        </div><br>
+        <h2>We're all about helping you reach your next financial goal.</h2>
 
-                        <div id="visa credit cards" style="background-color:cadetblue; margin-right: 1150px;">
-                            <img src="" alt="placeholder tag">
+<!--These make more sense being treated as headings rather than <p> considering the big picture stats that they are
+  presenting to potential clients.-->
+        <h3>150,000+<br>Members Empowered<br>$50 million+</h3>
+        <h3>250%<br>Growth in Member Assests<br>$32 million+</h3>
+        <h3>37,500+<br>Completed Projects<br>$18 billion+</h3>
+      </div>
 
-                            <p>
-                                VISA Credit Cards<br>
-                                Interest Rate As<br>
-                                Low As 6.8%
-                            </p>
+      <div id="section 4">
+        <h2>Wherever you go, take My CU with you.</h2>
 
-                            <button type="button">
-                                Learn More
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </fieldset>
+        <p>With home and mobile banking, manage your personal finances anywhere.</p>  
 
-            <fieldset>
-                <legend>Section 3 content</legend>
+        <button type="button">
+          Learn more
+        </button><br>
 
-                <div id="section 3">
-                    <div id="section 3 background image">
-                        <img src="" alt="placeholder">
-                    </div>
-
-                    <div id="section 3 advertsing text">
-                        <h1>
-                            We're all about helping you reach your<br>
-                            next financial goal.
-                        </h1>
-                    </div>
-
-                    <div id="statistics text">
-                        <p>
-                            150,000+<br>
-                            Members Empowered<br>
-                            $50 million+
-                        </p>
-
-                        <p>
-                            250%<br>
-                            Growth in Member Assests<br>
-                            $32 million+
-                        </p>
-
-                        <p>
-                            37,500+<br>
-                            Completed Projects<br>
-                            $18 billion+
-                        </p>
-                    </div>
-                </div>
-            </fieldset>
-
-            <fieldset>
-                <legend>Section 4 content</legend>
-
-                <div id="section 4">
-                    <div id="section 4 advertising text">
-                        <h1>
-                            Wherever you go,<br>
-                            take My CU with you.
-                        </h1>
-
-                        <p>
-                            With home and mobile banking, manage your personal<br>
-                            finances anywhere.
-                        </p>
-
-                        <button type="button">
-                            Learn more
-                        </button>
-                    </div><br>
-
-                    <div id="section 4 image">
-                        <img src="" alt="placeholder">
-                    </div>
-                </div>
-            </fieldset>
-        </main>
-    </body>
+        <img src="" alt="placeholder">
+      </div>  
+    </main>
+  </body>
 </html>
