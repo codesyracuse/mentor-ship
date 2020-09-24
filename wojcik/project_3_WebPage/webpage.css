@@ -1,0 +1,24 @@
+.fa {
+    text-align: center;
+    text-decoration: none;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color: grey;
+}
+
+.fa-twitter {
+  color: grey;
+}
+
+.fa-instagram {
+    color: grey;
+  }
+  
+  .fa-pinterest {
+    color: grey;
+  }
