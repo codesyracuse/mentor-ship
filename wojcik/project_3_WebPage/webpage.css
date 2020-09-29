@@ -19,14 +19,40 @@
     color: grey;
   }
   
-  .fa-pinterest {
+.fa-pinterest {
     color: grey;
   }
 
+.fontfamily {
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.socialmedia {
+  float: right;
+}
+
+.generalnav {
+  float: right;
+  clear: right;
+}
+
+.generalnavcontent {
+  color: dimgray;
+}
+
+.navigationnav {
+  text-align: center;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
 #section1 {
-  background-color: #16EAE7;
+  background-color: aqua;
 }
 
 #section3 {
-  background-color: #2B4EEA;
+  background-color: darkblue;
 }
