@@ -1,3 +1,4 @@
+/*Social Media Icons*/
 .fa {
     text-align: center;
     text-decoration: none;
@@ -23,8 +24,9 @@
     color: grey;
   }
 
-.fontfamily {
-  font-family: Arial, Helvetica, sans-serif; 
+/*SECTION 1*/
+.companylogo {
+  float: left;
 }
 
 .socialmedia {
@@ -40,9 +42,18 @@
   color: dimgray;
 }
 
+.fa-search {
+  color: black;
+}
+
 .navigationnav {
   text-align: center;
   clear: both;
+}
+
+/*General Stylings*/
+.fontfamily {
+  font-family: Arial, Helvetica, sans-serif; 
 }
 
 a {
