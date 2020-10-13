@@ -1,0 +1,69 @@
+/*Social Media Icons*/
+.fa {
+    text-align: center;
+    text-decoration: none;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color: grey;
+}
+
+.fa-twitter {
+  color: grey;
+}
+
+.fa-instagram {
+    color: grey;
+  }
+  
+.fa-pinterest {
+    color: grey;
+  }
+
+/*SECTION 1*/
+.companylogo {
+  float: left;
+}
+
+.socialmedia {
+  float: right;
+}
+
+.generalnav {
+  float: right;
+  clear: right;
+}
+
+.generalnavcontent {
+  color: dimgray;
+}
+
+.fa-search {
+  color: black;
+}
+
+.navigationnav {
+  text-align: center;
+  clear: both;
+}
+
+/*General Stylings*/
+.fontfamily {
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+a {
+  text-decoration: none;
+}
+
+#section1 {
+  background-color: aqua;
+}
+
+#section3 {
+  background-color: darkblue;
+}
